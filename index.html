@@ -3,13 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <title>Cook With Us</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css"/>
   </head>
   <body>
     <header>
       <nav>
-        <div class="container-nav">
+        <div class="container container-nav">
           <a href="">Home</a>
           <a href="">Recipes</a>
           <a href="">About</a>
@@ -18,18 +21,20 @@
       <img src="img/granola.jpg" alt="Cherry-almond granola crisp">
     </header>
     <main>
-      <p>Recipe of the day</p>
+      <div class="container container-daily">
+        <p>Recipe of the day</p>
+      </div>
       <h1>Cherry-Almond Granola Crisp</h1>
-      <p>Eat this simple, juicy dish for breakfast or dessert.</p>
-      <p>Jerelle Guy</p>
-      <div class="section-recipes">
+      <p class="p p-description">Eat this simple, juicy dish for breakfast or dessert.</p>
+      <p class="p p-author">Jerelle Guy</p>
+      <div class="container container-recipes">
         <h2>What to cook this week</h2>
         <hr/>
-        <div class="recipe recipe-filipino">
+        <div class="card card-filipino">
           <img src="img/filipino.jpg" alt="Filipino recipes">
           <h3>Angela Dimayuga’s 10 Essential Filipino Recipes</h3>
         </div>
-        <div class="recipe recipe-pastas">
+        <div class="card card-pastas">
           <img src="img/pastas.jpg" alt="Summer pastas">
           <h3>47 Bright and Beautiful Summer Pastas</h3>
         </div>
