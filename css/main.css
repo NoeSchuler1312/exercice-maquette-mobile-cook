@@ -47,6 +47,7 @@ a {
 .container-daily {
   background-color: #e33d26;
   border-radius: 90px;
+  margin: 18px 90px 0;
 }
 
 .container-daily p {
@@ -54,25 +55,31 @@ a {
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
+  padding: 2px 0;
 }
 
 h1 {
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 24px;
   font-weight: 400;
+  padding: 18px 30px 0;
 }
 
 .p-description {
   font-family: 'Sorts Mill Goudy', serif;
+  padding: 18px 0 20px;
 }
 
 .p-author {
   font-weight: 700;
   text-transform: uppercase;
+  padding: 0 0 34px;
 }
 
 .container-recipes {
   background-color: #ebede8;
+  padding: 30px 15px 25px;
+  text-align: left;
 }
 
 h2 {
@@ -82,19 +89,38 @@ h2 {
 
 hr {
   border: 1px solid #000;
+  margin: 7px 0 15px;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 400;
+  padding: 24px 27px;
 }
 
 .card {
   background-color: #fff;
   border: 1px solid #d0d0d0;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 footer {
   background-color: #000;
   color: #fff;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+footer h2 {
+  padding: 30px 15px 0;
+}
+
+footer a {
+  padding: 0 15px;
+}
+
+.container-nav-footer {
+  display: flex;
+  flex-flow: column;
 }
